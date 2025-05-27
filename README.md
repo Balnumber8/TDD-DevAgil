@@ -1,36 +1,63 @@
-# TDD-DevAgil
+# 🚀 Projeto TDD - Desenvolvimento Ágil  
 
-Membros da atividade
+👨‍🏫 **Professora:** Ana Tiessi
+🛠️ **Tema:** Test-Driven Development (TDD) aplicado em funcionalidades essenciais  
 
-Eike Barbosa RA:24.00652-0
+---
 
-Giovanni Guariglia de Camargo RA:23.00136-4
+## 👥 Membros da Equipe
 
-Pedro Vasconcelos RA:24.00923-7
+| Nome                         | RA            |
+|------------------------------|---------------|
+| Eike Barbosa                 | 24.00652-0    |
+| Giovanni Guariglia de Camargo| 23.00136-4    |
+| Pedro Vasconcelos            | 24.00923-7    |
+| Renan Schiavotello           | 24.00202-0    |
+| Matheus Garcia               | 24.00304-2    |
+| Wolf Meijome                 | 24.95008-4    |
 
-Renan Schiavotello RA:24.00202-0
+---
 
-Matheus Garcia RA:24.00304-2
+## 📌 Descrição da Atividade
 
-Wolf Meijome RA:24.95008-4
+Esta atividade tem como objetivo aplicar os **princípios de Desenvolvimento Orientado a Testes (TDD)** no desenvolvimento de funcionalidades fundamentais do Projeto Integrador, como **Login** ou algum **CRUD**.
 
-Descrição da Atividade – Desenvolvimento Orientado a Testes (TDD)
-Aplicar os princípios de Test-Driven Development (TDD) no desenvolvimento de funcionalidades essenciais do Projeto Integrador: login ou algum <<crud>>.
-O grupo deverá desenvolver testes automatizados antes da implementação das funcionalidades, seguindo o ciclo Red–Green–Refactor.
+O processo segue o ciclo clássico do TDD:
 
-Red – Criar testes automatizados que inicialmente falhem.
+### 🔄 Ciclo TDD: Red → Green → Refactor
 
-Green – Implementar o código mínimo necessário para que os testes passem com sucesso.
+- 🔴 **Red**: Escrever testes automatizados que inicialmente **falhem**, pois a funcionalidade ainda não existe.  
+- 🟢 **Green**: Implementar o **código mínimo necessário** para que os testes passem.  
+- 🟡 **Refactor**: Refatorar o código mantendo os testes verdes, garantindo legibilidade e boa manutenção.
 
-Refactor – Refatorar o código garantindo legibilidade, desempenho e manutenibilidade, sem quebrar os testes existentes.
+---
 
-As funcionalidades previstas para desenvolvimento incluem:
+## ✨ Funcionalidades Desenvolvidas
 
-Cadastro de Usuário: O sistema deve permitir o cadastro de novos usuários, exigindo os campos obrigatórios:
-Nome completo
-E-mail (válido e único)
-Senha (com critérios mínimos de segurança)
+### 👤 Cadastro de Usuário
 
-Login de Usuário: O sistema deve autenticar usuários utilizando:
-E-mail (criado anteriormente durante o cadastro)
-Senha (ciado anteriormente durante o cadastro)
+📌 O sistema deve permitir o cadastro de novos usuários com os seguintes campos obrigatórios:
+
+- 📝 Nome completo  
+- 📧 E-mail (válido e único)  
+- 🔒 Senha (com critérios mínimos de segurança)  
+
+---
+
+### 🔐 Login de Usuário
+
+📌 O sistema deve permitir o login de usuários previamente cadastrados, utilizando:
+
+- 📧 E-mail  
+- 🔒 Senha  
+
+> Ambos validados com os dados armazenados no sistema.
+
+---
+
+## ✅ Objetivos com a Aplicação do TDD
+
+- Garantir qualidade e segurança nas funcionalidades desenvolvidas.  
+- Promover uma cultura de testes desde o início do desenvolvimento.  
+- Evitar retrabalho e facilitar futuras manutenções.  
+- Melhorar a **confiança do código** com cobertura de testes automatizados.
